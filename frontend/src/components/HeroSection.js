@@ -33,7 +33,7 @@ const HeroSection = ({ heroData, stats }) => {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-[#aaa] max-w-3xl mx-auto leading-relaxed mb-12">
+          <p className="text-lg md:text-xl text-[#b3b3b3] max-w-3xl mx-auto leading-relaxed mb-12">
             {heroData.subheadline}
           </p>
 
