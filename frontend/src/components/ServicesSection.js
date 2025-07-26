@@ -40,10 +40,10 @@ const ServicesSection = ({ services }) => {
             <div 
               key={service.id}
               className={`
-                relative p-8 lg:p-12 rounded-2xl border-2 transition-all duration-500 hover:transform hover:scale-[1.02] group
+                relative p-8 lg:p-12 rounded-2xl border-2 transition-all duration-500 hover:transform hover:scale-[1.02] group backdrop-blur-sm
                 ${service.color === 'mid-blue' 
-                  ? 'bg-[#88a2ff]/10 border-[#88a2ff]/30 hover:border-[#88a2ff]' 
-                  : 'bg-[#d987ff]/10 border-[#d987ff]/30 hover:border-[#d987ff]'
+                  ? 'bg-gradient-to-br from-[#1a4d2e]/30 to-[#0f5132]/20 border-[#2ecc71]/30 hover:border-[#2ecc71] hover:shadow-[0_0_40px_#2ecc71]' 
+                  : 'bg-gradient-to-br from-[#0f5132]/30 to-[#1a4d2e]/20 border-[#27ae60]/30 hover:border-[#27ae60] hover:shadow-[0_0_40px_#27ae60]'
                 }
               `}
             >
