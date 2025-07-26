@@ -28,7 +28,7 @@ const HeroSection = ({ heroData, stats }) => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-[#ffd1e7] to-white bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-[#2ecc71] to-[#27ae60] bg-clip-text text-transparent drop-shadow-[0_0_30px_#2ecc71]">
             {heroData.headline}
           </h1>
 
