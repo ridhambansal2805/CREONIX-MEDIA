@@ -18,7 +18,7 @@ const TestimonialsSection = ({ testimonials }) => {
           
           <p className="text-lg text-[#b3b3b3] leading-relaxed">
             Don't just take our word for it. Here's what brand owners have to say 
-            about working with CREON!X.
+            about working with CREON!X MEDIA.
           </p>
         </div>
 
