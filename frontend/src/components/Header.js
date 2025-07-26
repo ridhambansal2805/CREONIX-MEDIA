@@ -19,7 +19,7 @@ const Header = ({ navigation }) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-semibold text-[#ffd1e7] uppercase tracking-wide">
+            <h1 className="text-xl font-semibold text-[#2ecc71] uppercase tracking-wide bg-gradient-to-r from-[#1a4d2e] to-[#2ecc71] bg-clip-text text-transparent">
               Creonix Media
             </h1>
           </div>
