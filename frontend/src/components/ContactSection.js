@@ -57,20 +57,20 @@ const ContactSection = ({ contactData }) => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-[#151515] text-white">
+    <section id="contact" className="py-24 bg-black text-white">
       <div className="max-w-[1920px] mx-auto px-4 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 bg-[#78d692]/10 text-[#78d692] px-4 py-2 rounded-full text-sm font-mono uppercase tracking-wider mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#0f5132]/20 text-[#27ae60] px-4 py-2 rounded-full text-sm font-mono uppercase tracking-wider mb-6 shadow-[0_0_20px_#27ae60] backdrop-blur-sm border border-[#0f5132]/50">
             <Mail size={16} />
             Get In Touch
           </div>
           
           <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
-            Ready To <span className="bg-gradient-to-r from-[#ffd1e7] to-[#78d692] bg-clip-text text-transparent">Scale Your Brand?</span>
+            Ready To <span className="bg-gradient-to-r from-[#2ecc71] to-[#27ae60] bg-clip-text text-transparent drop-shadow-[0_0_20px_#2ecc71]">Scale Your Brand?</span>
           </h2>
           
-          <p className="text-lg text-[#aaa] leading-relaxed">
+          <p className="text-lg text-[#b3b3b3] leading-relaxed">
             Book a free strategy call to discuss how we can help you build a high-converting 
             Shopify store and scale it with profitable Meta advertising.
           </p>
@@ -78,14 +78,14 @@ const ContactSection = ({ contactData }) => {
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Contact Form */}
-          <div className="bg-[#717171]/10 rounded-2xl p-8 lg:p-12 border border-[#717171]/20">
-            <h3 className="text-2xl font-bold mb-6">Tell Us About Your Project</h3>
+          <div className="bg-gradient-to-br from-[#1a4d2e]/20 to-[#0f5132]/10 rounded-2xl p-8 lg:p-12 border border-[#1a4d2e]/30 backdrop-blur-sm shadow-[0_0_30px_#2ecc71]/20">
+            <h3 className="text-2xl font-bold mb-6 text-[#2ecc71] drop-shadow-[0_0_10px_#2ecc71]">Tell Us About Your Project</h3>
             
             {!isSubmitted ? (
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium mb-2 text-[#ffd1e7]">
+                    <label htmlFor="name" className="block text-sm font-medium mb-2 text-[#2ecc71]">
                       Full Name *
                     </label>
                     <Input
@@ -95,13 +95,13 @@ const ContactSection = ({ contactData }) => {
                       value={formData.name}
                       onChange={handleInputChange}
                       required
-                      className="bg-[#151515] border-[#717171]/30 text-white placeholder:text-[#aaa] focus:border-[#ffd1e7] transition-colors duration-200"
+                      className="bg-black/50 border-[#1a4d2e]/50 text-white placeholder:text-[#b3b3b3] focus:border-[#2ecc71] transition-colors duration-200 backdrop-blur-sm hover:border-[#27ae60]/50"
                       placeholder="John Doe"
                     />
                   </div>
                   
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium mb-2 text-[#ffd1e7]">
+                    <label htmlFor="email" className="block text-sm font-medium mb-2 text-[#2ecc71]">
                       Email Address *
                     </label>
                     <Input
@@ -111,7 +111,7 @@ const ContactSection = ({ contactData }) => {
                       value={formData.email}
                       onChange={handleInputChange}
                       required
-                      className="bg-[#151515] border-[#717171]/30 text-white placeholder:text-[#aaa] focus:border-[#ffd1e7] transition-colors duration-200"
+                      className="bg-black/50 border-[#1a4d2e]/50 text-white placeholder:text-[#b3b3b3] focus:border-[#2ecc71] transition-colors duration-200 backdrop-blur-sm hover:border-[#27ae60]/50"
                       placeholder="john@company.com"
                     />
                   </div>
@@ -119,7 +119,7 @@ const ContactSection = ({ contactData }) => {
 
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="company" className="block text-sm font-medium mb-2 text-[#ffd1e7]">
+                    <label htmlFor="company" className="block text-sm font-medium mb-2 text-[#2ecc71]">
                       Company Name
                     </label>
                     <Input
@@ -128,13 +128,13 @@ const ContactSection = ({ contactData }) => {
                       name="company"
                       value={formData.company}
                       onChange={handleInputChange}
-                      className="bg-[#151515] border-[#717171]/30 text-white placeholder:text-[#aaa] focus:border-[#ffd1e7] transition-colors duration-200"
+                      className="bg-black/50 border-[#1a4d2e]/50 text-white placeholder:text-[#b3b3b3] focus:border-[#2ecc71] transition-colors duration-200 backdrop-blur-sm hover:border-[#27ae60]/50"
                       placeholder="Your Brand"
                     />
                   </div>
                   
                   <div>
-                    <label htmlFor="revenue" className="block text-sm font-medium mb-2 text-[#ffd1e7]">
+                    <label htmlFor="revenue" className="block text-sm font-medium mb-2 text-[#2ecc71]">
                       Monthly Revenue
                     </label>
                     <select
@@ -142,7 +142,7 @@ const ContactSection = ({ contactData }) => {
                       name="revenue"
                       value={formData.revenue}
                       onChange={handleInputChange}
-                      className="w-full bg-[#151515] border border-[#717171]/30 text-white rounded-md px-3 py-2 focus:border-[#ffd1e7] transition-colors duration-200"
+                      className="w-full bg-black/50 border border-[#1a4d2e]/50 text-white rounded-md px-3 py-2 focus:border-[#2ecc71] transition-colors duration-200 backdrop-blur-sm hover:border-[#27ae60]/50"
                     >
                       <option value="">Select range</option>
                       <option value="0-10k">$0 - $10k</option>
@@ -154,7 +154,7 @@ const ContactSection = ({ contactData }) => {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2 text-[#ffd1e7]">
+                  <label htmlFor="message" className="block text-sm font-medium mb-2 text-[#2ecc71]">
                     Project Details *
                   </label>
                   <Textarea
@@ -164,7 +164,7 @@ const ContactSection = ({ contactData }) => {
                     onChange={handleInputChange}
                     required
                     rows={5}
-                    className="bg-[#151515] border-[#717171]/30 text-white placeholder:text-[#aaa] focus:border-[#ffd1e7] transition-colors duration-200 resize-none"
+                    className="bg-black/50 border-[#1a4d2e]/50 text-white placeholder:text-[#b3b3b3] focus:border-[#2ecc71] transition-colors duration-200 resize-none backdrop-blur-sm hover:border-[#27ae60]/50"
                     placeholder="Tell us about your brand, current challenges, and what you'd like to achieve..."
                   />
                 </div>
@@ -172,11 +172,11 @@ const ContactSection = ({ contactData }) => {
                 <Button 
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-[#ffd1e7] text-[#151515] border border-[#ffd1e7] rounded-full px-8 py-3 text-sm font-mono uppercase tracking-wider hover:bg-[#ff84e4] hover:border-[#ff84e4] transition-all duration-300 disabled:opacity-50"
+                  className="w-full bg-gradient-to-r from-[#2ecc71] to-[#27ae60] text-black border border-[#2ecc71] rounded-full px-8 py-3 text-sm font-mono uppercase tracking-wider hover:shadow-[0_0_30px_#2ecc71] transition-all duration-300 disabled:opacity-50 shadow-[0_0_20px_#2ecc71]"
                 >
                   {isSubmitting ? (
                     <span className="flex items-center justify-center gap-2">
-                      <div className="w-4 h-4 border-2 border-[#151515] border-t-transparent rounded-full animate-spin"></div>
+                      <div className="w-4 h-4 border-2 border-black border-t-transparent rounded-full animate-spin"></div>
                       Sending Message...
                     </span>
                   ) : (
@@ -189,9 +189,9 @@ const ContactSection = ({ contactData }) => {
               </form>
             ) : (
               <div className="text-center py-12">
-                <CheckCircle size={64} className="text-[#78d692] mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-[#78d692] mb-4">Message Sent!</h3>
-                <p className="text-[#aaa]">
+                <CheckCircle size={64} className="text-[#27ae60] mx-auto mb-4 drop-shadow-[0_0_20px_#27ae60]" />
+                <h3 className="text-2xl font-bold text-[#27ae60] mb-4 drop-shadow-[0_0_10px_#27ae60]">Message Sent!</h3>
+                <p className="text-[#b3b3b3]">
                   Thank you for reaching out. We'll get back to you within 24 hours with a detailed proposal.
                 </p>
               </div>
@@ -201,29 +201,29 @@ const ContactSection = ({ contactData }) => {
           {/* Contact Info & CTA */}
           <div className="space-y-8">
             {/* Quick Contact Options */}
-            <div className="bg-gradient-to-br from-[#ffd1e7]/10 to-[#88a2ff]/10 rounded-2xl p-8 border border-[#717171]/20">
-              <h3 className="text-2xl font-bold mb-6">Prefer to Talk Directly?</h3>
+            <div className="bg-gradient-to-br from-[#2ecc71]/10 to-[#1a4d2e]/10 rounded-2xl p-8 border border-[#1a4d2e]/30 backdrop-blur-sm shadow-[0_0_20px_#2ecc71]/20">
+              <h3 className="text-2xl font-bold mb-6 text-[#2ecc71] drop-shadow-[0_0_10px_#2ecc71]">Prefer to Talk Directly?</h3>
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-[#ffd1e7]/20 rounded-full flex items-center justify-center">
-                    <Mail size={20} className="text-[#ffd1e7]" />
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#2ecc71]/20 to-[#1a4d2e]/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-[#2ecc71]/30 shadow-[0_0_10px_#2ecc71]/30">
+                    <Mail size={20} className="text-[#2ecc71]" />
                   </div>
                   <div>
-                    <div className="font-semibold">Email Us</div>
-                    <a href={`mailto:${contactData.email}`} className="text-[#ffd1e7] hover:underline">
+                    <div className="font-semibold text-white">Email Us</div>
+                    <a href={`mailto:${contactData.email}`} className="text-[#2ecc71] hover:text-[#27ae60] hover:underline transition-colors duration-200">
                       {contactData.email}
                     </a>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-[#88a2ff]/20 rounded-full flex items-center justify-center">
-                    <Phone size={20} className="text-[#88a2ff]" />
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#27ae60]/20 to-[#0f5132]/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-[#27ae60]/30 shadow-[0_0_10px_#27ae60]/30">
+                    <Phone size={20} className="text-[#27ae60]" />
                   </div>
                   <div>
-                    <div className="font-semibold">Call Us</div>
-                    <a href={`tel:${contactData.phone}`} className="text-[#88a2ff] hover:underline">
+                    <div className="font-semibold text-white">Call Us</div>
+                    <a href={`tel:${contactData.phone}`} className="text-[#27ae60] hover:text-[#2ecc71] hover:underline transition-colors duration-200">
                       {contactData.phone}
                     </a>
                   </div>
@@ -232,7 +232,7 @@ const ContactSection = ({ contactData }) => {
 
               <Button 
                 onClick={openCalendly}
-                className="w-full bg-[#78d692] text-white border border-[#78d692] rounded-full px-8 py-3 text-sm font-mono uppercase tracking-wider hover:bg-[#a1a500] hover:border-[#a1a500] transition-all duration-300 flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-[#1a4d2e] to-[#0f5132] text-[#2ecc71] border border-[#1a4d2e] rounded-full px-8 py-3 text-sm font-mono uppercase tracking-wider hover:bg-gradient-to-r hover:from-[#2ecc71] hover:to-[#27ae60] hover:text-black transition-all duration-300 flex items-center justify-center gap-2 shadow-[0_0_15px_#2ecc71]/30 hover:shadow-[0_0_25px_#2ecc71]"
               >
                 <Calendar size={16} />
                 Book Free Strategy Call
@@ -240,37 +240,37 @@ const ContactSection = ({ contactData }) => {
             </div>
 
             {/* What to Expect */}
-            <div className="bg-[#717171]/10 rounded-2xl p-8 border border-[#717171]/20">
-              <h3 className="text-xl font-bold mb-6">What Happens Next?</h3>
+            <div className="bg-gradient-to-br from-[#0f5132]/20 to-[#1a4d2e]/10 rounded-2xl p-8 border border-[#1a4d2e]/30 backdrop-blur-sm shadow-[0_0_20px_#2ecc71]/10">
+              <h3 className="text-xl font-bold mb-6 text-[#27ae60] drop-shadow-[0_0_10px_#27ae60]">What Happens Next?</h3>
               
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-[#ffd1e7]/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-[#ffd1e7] text-sm font-bold">1</span>
+                  <div className="w-8 h-8 bg-gradient-to-br from-[#2ecc71]/30 to-[#1a4d2e]/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1 border border-[#2ecc71]/30 shadow-[0_0_10px_#2ecc71]/30">
+                    <span className="text-[#2ecc71] text-sm font-bold">1</span>
                   </div>
                   <div>
-                    <div className="font-semibold mb-1">Discovery Call</div>
-                    <div className="text-sm text-[#aaa]">We'll discuss your goals, challenges, and vision for your brand.</div>
+                    <div className="font-semibold mb-1 text-[#2ecc71]">Discovery Call</div>
+                    <div className="text-sm text-[#b3b3b3]">We'll discuss your goals, challenges, and vision for your brand.</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-[#88a2ff]/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-[#88a2ff] text-sm font-bold">2</span>
+                  <div className="w-8 h-8 bg-gradient-to-br from-[#27ae60]/30 to-[#0f5132]/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1 border border-[#27ae60]/30 shadow-[0_0_10px_#27ae60]/30">
+                    <span className="text-[#27ae60] text-sm font-bold">2</span>
                   </div>
                   <div>
-                    <div className="font-semibold mb-1">Strategy Proposal</div>
-                    <div className="text-sm text-[#aaa]">Custom strategy tailored to your specific needs and budget.</div>
+                    <div className="font-semibold mb-1 text-[#27ae60]">Strategy Proposal</div>
+                    <div className="text-sm text-[#b3b3b3]">Custom strategy tailored to your specific needs and budget.</div>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-[#d987ff]/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-[#d987ff] text-sm font-bold">3</span>
+                  <div className="w-8 h-8 bg-gradient-to-br from-[#2ecc71]/30 to-[#27ae60]/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1 border border-[#2ecc71]/30 shadow-[0_0_10px_#2ecc71]/30">
+                    <span className="text-[#2ecc71] text-sm font-bold">3</span>
                   </div>
                   <div>
-                    <div className="font-semibold mb-1">Project Kickoff</div>
-                    <div className="text-sm text-[#aaa]">Begin building your high-converting Shopify store and Meta campaigns.</div>
+                    <div className="font-semibold mb-1 text-[#2ecc71]">Project Kickoff</div>
+                    <div className="text-sm text-[#b3b3b3]">Begin building your high-converting Shopify store and Meta campaigns.</div>
                   </div>
                 </div>
               </div>
