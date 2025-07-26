@@ -113,7 +113,7 @@ const ServicesSection = ({ services }) => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-[#1a4d2e]/20 via-[#2ecc71]/10 to-[#0f5132]/20 rounded-2xl p-8 lg:p-12 border border-[#1a4d2e]/30 backdrop-blur-sm shadow-[0_0_30px_#2ecc71]/20">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Ready to <span className="text-[#ffd1e7]">Transform</span> Your Business?
+              Ready to <span className="text-[#2ecc71] drop-shadow-[0_0_10px_#2ecc71]">Transform</span> Your Business?
             </h3>
             <p className="text-[#aaa] text-lg mb-6 max-w-2xl mx-auto">
               Let's discuss how we can help you build a high-converting Shopify store and scale it with profitable Meta advertising.
