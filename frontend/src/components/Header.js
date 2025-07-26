@@ -41,7 +41,7 @@ const Header = ({ navigation }) => {
           <div className="hidden md:block">
             <Button 
               onClick={() => scrollToSection('#contact')}
-              className="bg-[#151515] text-white border border-[#151515] rounded-full px-6 py-2 text-xs font-mono uppercase tracking-wider hover:bg-[#2a2a2a] transition-all duration-300"
+              className="bg-black text-[#2ecc71] border border-[#1a4d2e] rounded-full px-6 py-2 text-xs font-mono uppercase tracking-wider hover:bg-[#1a4d2e] hover:text-white transition-all duration-300"
             >
               Get Started
             </Button>
