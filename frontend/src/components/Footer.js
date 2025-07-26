@@ -16,7 +16,7 @@ const Footer = ({ contactData }) => {
           <div className="grid lg:grid-cols-4 gap-8 lg:gap-12">
             {/* Brand Column */}
             <div className="lg:col-span-2">
-              <h2 className="text-2xl font-bold text-white mb-4 uppercase tracking-wide" style={{ fontFamily: '"Cubano", "Arial Black", "Arial Narrow", condensed, sans-serif' }}>
+              <h2 className="text-2xl font-bold text-white mb-4 uppercase tracking-wide" style={{ fontFamily: '"Bebas Neue", "Arial Black", "Arial Narrow", condensed, sans-serif' }}>
                 CREON!X
               </h2>
               <p className="text-[#b3b3b3] text-lg leading-relaxed mb-6 max-w-md">
