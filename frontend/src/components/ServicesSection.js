@@ -25,7 +25,7 @@ const ServicesSection = ({ services }) => {
           </div>
           
           <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
-            Everything You Need To <span className="bg-gradient-to-r from-[#ffd1e7] to-[#88a2ff] bg-clip-text text-transparent">Scale Your Brand</span>
+            Everything You Need To <span className="bg-gradient-to-r from-[#2ecc71] to-[#27ae60] bg-clip-text text-transparent drop-shadow-[0_0_20px_#2ecc71]">Scale Your Brand</span>
           </h2>
           
           <p className="text-lg text-[#aaa] leading-relaxed">
