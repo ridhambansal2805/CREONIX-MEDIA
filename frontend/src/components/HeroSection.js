@@ -22,7 +22,7 @@ const HeroSection = ({ heroData, stats }) => {
       <div className="relative z-10 max-w-[1920px] mx-auto px-4 lg:px-8 py-20">
         <div className="text-center max-w-4xl mx-auto">
           {/* Trust Badge */}
-          <div className="inline-flex items-center gap-2 bg-[#ffd1e7]/10 text-[#ffd1e7] px-4 py-2 rounded-full text-sm font-mono uppercase tracking-wider mb-8">
+          <div className="inline-flex items-center gap-2 bg-[#1a4d2e]/20 text-[#2ecc71] px-4 py-2 rounded-full text-sm font-mono uppercase tracking-wider mb-8 shadow-[0_0_20px_#2ecc71] backdrop-blur-sm border border-[#1a4d2e]/50">
             <TrendingUp size={16} />
             {heroData.trustText}
           </div>
