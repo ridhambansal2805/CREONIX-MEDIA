@@ -148,7 +148,7 @@ export const mockData = {
       name: "Emma Thompson",
       position: "Marketing Director",
       company: "Urban Edge Accessories",
-      content: "Mobile sales were killing us until CREON!X stepped in. The mobile-first redesign doubled our mobile conversions almost overnight.",
+      content: "Mobile sales were killing us until CREON!X MEDIA stepped in. The mobile-first redesign doubled our mobile conversions almost overnight.",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
       results: "156% mobile conversion boost"
     }
