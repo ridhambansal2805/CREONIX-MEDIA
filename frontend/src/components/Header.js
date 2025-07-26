@@ -17,10 +17,10 @@ const Header = ({ navigation }) => {
     <header className="fixed top-0 w-full z-50 bg-black/95 backdrop-blur-sm border-b border-[#1a4d2e]/40">
       <div className="max-w-[1920px] mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-xl font-semibold text-[#2ecc71] uppercase tracking-wide bg-gradient-to-r from-[#1a4d2e] to-[#2ecc71] bg-clip-text text-transparent">
-              Creonix Media
+          {/* Logo - Centered */}
+          <div className="flex-1 flex justify-center">
+            <h1 className="text-2xl font-bold text-white uppercase tracking-wider" style={{ fontFamily: '"Cubano", "Arial Black", "Arial Narrow", condensed, sans-serif' }}>
+              CREON!X
             </h1>
           </div>
 
