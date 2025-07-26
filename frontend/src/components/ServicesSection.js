@@ -72,7 +72,7 @@ const ServicesSection = ({ services }) => {
                 {service.features.map((feature, featureIndex) => (
                   <div 
                     key={featureIndex} 
-                    className="flex items-center gap-3 text-white group-hover:text-[#ffd1e7] transition-colors duration-300"
+                    className="flex items-center gap-3 text-white group-hover:text-[#2ecc71] transition-colors duration-300"
                   >
                     <div className={`
                       w-2 h-2 rounded-full flex-shrink-0 transition-all duration-300
