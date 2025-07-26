@@ -131,7 +131,7 @@ const Footer = ({ contactData }) => {
         <div className="border-t border-[#1a4d2e]/30 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-sm text-[#b3b3b3]">
-              © {currentYear} Creonix Media. All rights reserved.
+              © {currentYear} CREON!X. All rights reserved.
             </div>
             
             <div className="flex items-center gap-6">
