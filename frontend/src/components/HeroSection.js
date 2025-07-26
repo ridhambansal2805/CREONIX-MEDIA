@@ -41,7 +41,7 @@ const HeroSection = ({ heroData, stats }) => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button 
               onClick={scrollToContact}
-              className="bg-[#ffd1e7] text-[#151515] border border-[#ffd1e7] rounded-full px-8 py-3 text-sm font-mono uppercase tracking-wider hover:bg-[#ff84e4] hover:border-[#ff84e4] transition-all duration-300 flex items-center gap-2 group"
+              className="bg-gradient-to-r from-[#2ecc71] to-[#27ae60] text-black border border-[#2ecc71] rounded-full px-8 py-3 text-sm font-mono uppercase tracking-wider hover:shadow-[0_0_30px_#2ecc71] transition-all duration-300 flex items-center gap-2 group shadow-[0_0_20px_#2ecc71]"
             >
               {heroData.ctaText}
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
