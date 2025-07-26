@@ -102,8 +102,8 @@ const ServicesSection = ({ services }) => {
 
               {/* Decorative Elements */}
               <div className={`
-                absolute top-4 right-4 w-24 h-24 rounded-full blur-2xl opacity-20 transition-opacity duration-500 group-hover:opacity-40
-                ${service.color === 'mid-blue' ? 'bg-[#88a2ff]' : 'bg-[#d987ff]'}
+                absolute top-4 right-4 w-24 h-24 rounded-full blur-2xl opacity-20 transition-opacity duration-500 group-hover:opacity-60
+                ${service.color === 'mid-blue' ? 'bg-[#2ecc71] group-hover:shadow-[0_0_50px_#2ecc71]' : 'bg-[#27ae60] group-hover:shadow-[0_0_50px_#27ae60]'}
               `}></div>
             </div>
           ))}
