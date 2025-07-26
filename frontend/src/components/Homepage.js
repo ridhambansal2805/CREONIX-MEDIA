@@ -10,7 +10,7 @@ import { mockData } from "../data/mock";
 
 const Homepage = () => {
   return (
-    <div className="min-h-screen bg-[#151515] text-white">
+    <div className="min-h-screen bg-black text-white">
       <Header navigation={mockData.navigation} />
       <HeroSection heroData={mockData.hero} stats={mockData.stats} />
       <ServicesSection services={mockData.services} />
