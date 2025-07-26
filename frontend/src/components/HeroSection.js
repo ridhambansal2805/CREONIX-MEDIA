@@ -14,9 +14,9 @@ const HeroSection = ({ heroData, stats }) => {
     <section className="relative min-h-screen flex items-center justify-center bg-black text-white overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 right-10 w-32 h-32 bg-[#ffd1e7]/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 left-10 w-48 h-48 bg-[#88a2ff]/10 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#d987ff]/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 right-10 w-32 h-32 bg-[#1a4d2e]/30 rounded-full blur-3xl shadow-[0_0_50px_#2ecc71]"></div>
+        <div className="absolute bottom-20 left-10 w-48 h-48 bg-[#0f5132]/20 rounded-full blur-3xl shadow-[0_0_80px_#27ae60]"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#2ecc71]/10 rounded-full blur-3xl shadow-[0_0_100px_#1a4d2e]"></div>
       </div>
 
       <div className="relative z-10 max-w-[1920px] mx-auto px-4 lg:px-8 py-20">
