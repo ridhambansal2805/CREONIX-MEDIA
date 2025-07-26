@@ -49,7 +49,7 @@ const HeroSection = ({ heroData, stats }) => {
             
             <button 
               onClick={() => document.querySelector('#case-studies').scrollIntoView({ behavior: 'smooth' })}
-              className="text-white border border-[#717171] rounded-full px-8 py-3 text-sm font-mono uppercase tracking-wider hover:border-white hover:bg-white hover:text-[#151515] transition-all duration-300 flex items-center gap-2"
+              className="text-white border border-[#1a4d2e] rounded-full px-8 py-3 text-sm font-mono uppercase tracking-wider hover:border-[#2ecc71] hover:bg-gradient-to-r hover:from-[#1a4d2e] hover:to-[#2ecc71] hover:text-black transition-all duration-300 flex items-center gap-2 hover:shadow-[0_0_20px_#2ecc71]"
             >
               View Our Work
               <Target size={16} />
