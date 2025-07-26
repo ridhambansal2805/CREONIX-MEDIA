@@ -49,10 +49,10 @@ const ServicesSection = ({ services }) => {
             >
               {/* Service Icon */}
               <div className={`
-                inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-6 transition-all duration-300 group-hover:scale-110
+                inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-6 transition-all duration-300 group-hover:scale-110 backdrop-blur-sm
                 ${service.color === 'mid-blue' 
-                  ? 'bg-[#88a2ff]/20 text-[#88a2ff] group-hover:bg-[#88a2ff] group-hover:text-white' 
-                  : 'bg-[#d987ff]/20 text-[#d987ff] group-hover:bg-[#d987ff] group-hover:text-white'
+                  ? 'bg-[#2ecc71]/20 text-[#2ecc71] group-hover:bg-gradient-to-br group-hover:from-[#2ecc71] group-hover:to-[#27ae60] group-hover:text-black group-hover:shadow-[0_0_20px_#2ecc71]' 
+                  : 'bg-[#27ae60]/20 text-[#27ae60] group-hover:bg-gradient-to-br group-hover:from-[#27ae60] group-hover:to-[#2ecc71] group-hover:text-black group-hover:shadow-[0_0_20px_#27ae60]'
                 }
               `}>
                 {getServiceIcon(index)}
