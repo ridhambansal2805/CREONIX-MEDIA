@@ -28,7 +28,7 @@ const ServicesSection = ({ services }) => {
             Everything You Need To <span className="bg-gradient-to-r from-[#2ecc71] to-[#27ae60] bg-clip-text text-transparent drop-shadow-[0_0_20px_#2ecc71]">Scale Your Brand</span>
           </h2>
           
-          <p className="text-lg text-[#aaa] leading-relaxed">
+          <p className="text-lg text-[#b3b3b3] leading-relaxed">
             From custom Shopify development to high-performing Meta advertising campaigns, 
             we handle every aspect of your digital growth strategy.
           </p>
