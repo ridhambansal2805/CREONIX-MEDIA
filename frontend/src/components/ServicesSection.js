@@ -111,7 +111,7 @@ const ServicesSection = ({ services }) => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-[#88a2ff]/10 via-[#ffd1e7]/10 to-[#d987ff]/10 rounded-2xl p-8 lg:p-12 border border-[#717171]/20">
+          <div className="bg-gradient-to-r from-[#1a4d2e]/20 via-[#2ecc71]/10 to-[#0f5132]/20 rounded-2xl p-8 lg:p-12 border border-[#1a4d2e]/30 backdrop-blur-sm shadow-[0_0_30px_#2ecc71]/20">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               Ready to <span className="text-[#ffd1e7]">Transform</span> Your Business?
             </h3>
