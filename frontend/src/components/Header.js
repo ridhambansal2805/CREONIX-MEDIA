@@ -16,16 +16,9 @@ const Header = ({ navigation }) => {
   return (
     <header className="fixed top-0 w-full z-50 bg-black/95 backdrop-blur-sm border-b border-[#1a4d2e]/40">
       <div className="max-w-[1920px] mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo - Centered */}
-          <div className="flex-1 flex justify-center">
-            <h1 className="text-2xl font-bold text-white uppercase tracking-wider" style={{ fontFamily: '"Cubano", "Arial Black", "Arial Narrow", condensed, sans-serif' }}>
-              CREON!X
-            </h1>
-          </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8 absolute right-0">
+        <div className="flex items-center justify-center relative h-16">
+          {/* Desktop Navigation - Left Side */}
+          <nav className="hidden md:flex items-center space-x-8 absolute left-0">
             {navigation.map((item, index) => (
               <button
                 key={index}
@@ -37,8 +30,15 @@ const Header = ({ navigation }) => {
             ))}
           </nav>
 
-          {/* CTA Button - Desktop */}
-          <div className="hidden md:block absolute right-0" style={{ right: '0px' }}>
+          {/* Logo - Centered */}
+          <div>
+            <h1 className="text-2xl font-bold text-white uppercase tracking-wider" style={{ fontFamily: '"Cubano", "Arial Black", "Arial Narrow", condensed, sans-serif' }}>
+              CREON!X
+            </h1>
+          </div>
+
+          {/* CTA Button - Right Side */}
+          <div className="hidden md:block absolute right-0">
             <Button 
               onClick={() => scrollToSection('#contact')}
               className="bg-black text-[#2ecc71] border border-[#1a4d2e] rounded-full px-6 py-2 text-xs font-mono uppercase tracking-wider hover:bg-[#1a4d2e] hover:text-white transition-all duration-300"
