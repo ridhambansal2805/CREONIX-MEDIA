@@ -32,7 +32,7 @@ const Header = ({ navigation }) => {
 
           {/* Logo - Centered */}
           <div>
-            <h1 className="text-2xl font-bold text-white uppercase tracking-wider" style={{ fontFamily: '"Cubano", "Arial Black", "Arial Narrow", condensed, sans-serif' }}>
+            <h1 className="text-2xl font-bold text-white uppercase tracking-wider" style={{ fontFamily: '"Bebas Neue", "Arial Black", "Arial Narrow", condensed, sans-serif' }}>
               CREON!X
             </h1>
           </div>
