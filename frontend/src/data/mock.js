@@ -164,13 +164,13 @@ export const mockData = {
 
   // Contact Information
   contact: {
-    email: "hello@creonixmedia.com",
+    email: "hello@creonx.com",
     phone: "+1 (555) 123-4567",
-    calendlyLink: "https://calendly.com/creonix-strategy-call",
+    calendlyLink: "https://calendly.com/creonx-strategy-call",
     socialLinks: {
-      instagram: "https://instagram.com/creonixmedia",
-      linkedin: "https://linkedin.com/company/creonix-media",
-      twitter: "https://twitter.com/creonixmedia"
+      instagram: "https://instagram.com/creonx",
+      linkedin: "https://linkedin.com/company/creonx",
+      twitter: "https://twitter.com/creonx"
     }
   },
 
