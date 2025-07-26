@@ -77,8 +77,8 @@ const ServicesSection = ({ services }) => {
                     <div className={`
                       w-2 h-2 rounded-full flex-shrink-0 transition-all duration-300
                       ${service.color === 'mid-blue' 
-                        ? 'bg-[#88a2ff] group-hover:bg-[#ffd1e7]' 
-                        : 'bg-[#d987ff] group-hover:bg-[#ffd1e7]'
+                        ? 'bg-[#2ecc71] group-hover:bg-[#27ae60] group-hover:shadow-[0_0_5px_#2ecc71]' 
+                        : 'bg-[#27ae60] group-hover:bg-[#2ecc71] group-hover:shadow-[0_0_5px_#27ae60]'
                       }
                     `}></div>
                     <span className="text-sm font-medium">{feature}</span>
