@@ -38,7 +38,7 @@ const Header = ({ navigation }) => {
           </nav>
 
           {/* CTA Button - Desktop */}
-          <div className="hidden md:block">
+          <div className="hidden md:block absolute right-0" style={{ right: '0px' }}>
             <Button 
               onClick={() => scrollToSection('#contact')}
               className="bg-black text-[#2ecc71] border border-[#1a4d2e] rounded-full px-6 py-2 text-xs font-mono uppercase tracking-wider hover:bg-[#1a4d2e] hover:text-white transition-all duration-300"
