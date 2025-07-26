@@ -19,7 +19,7 @@ const ServicesSection = ({ services }) => {
       <div className="max-w-[1920px] mx-auto px-4 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 bg-[#88a2ff]/10 text-[#88a2ff] px-4 py-2 rounded-full text-sm font-mono uppercase tracking-wider mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#1a4d2e]/20 text-[#2ecc71] px-4 py-2 rounded-full text-sm font-mono uppercase tracking-wider mb-6 shadow-[0_0_20px_#2ecc71] backdrop-blur-sm border border-[#1a4d2e]/50">
             <Zap size={16} />
             Our Services
           </div>
