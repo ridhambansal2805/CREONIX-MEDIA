@@ -63,7 +63,7 @@ const ServicesSection = ({ services }) => {
                 {service.title}
               </h3>
               
-              <p className="text-[#aaa] text-lg leading-relaxed mb-8 group-hover:text-[#b6cbcb] transition-colors duration-300">
+              <p className="text-[#b3b3b3] text-lg leading-relaxed mb-8 group-hover:text-[#d4d4d4] transition-colors duration-300">
                 {service.description}
               </p>
 
