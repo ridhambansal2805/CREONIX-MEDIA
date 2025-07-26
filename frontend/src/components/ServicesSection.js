@@ -115,7 +115,7 @@ const ServicesSection = ({ services }) => {
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               Ready to <span className="text-[#2ecc71] drop-shadow-[0_0_10px_#2ecc71]">Transform</span> Your Business?
             </h3>
-            <p className="text-[#aaa] text-lg mb-6 max-w-2xl mx-auto">
+            <p className="text-[#b3b3b3] text-lg mb-6 max-w-2xl mx-auto">
               Let's discuss how we can help you build a high-converting Shopify store and scale it with profitable Meta advertising.
             </p>
             <Button 
