@@ -11,7 +11,7 @@ const HeroSection = ({ heroData, stats }) => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-[#151515] text-white overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-black text-white overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 right-10 w-32 h-32 bg-[#ffd1e7]/10 rounded-full blur-3xl"></div>
