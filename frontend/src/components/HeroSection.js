@@ -71,7 +71,7 @@ const HeroSection = ({ heroData, stats }) => {
                   {stat.value}
                 </div>
                 <div className="text-sm text-white font-semibold mb-1">{stat.label}</div>
-                <div className="text-xs text-[#aaa]">{stat.description}</div>
+                <div className="text-xs text-[#b3b3b3]">{stat.description}</div>
               </div>
             ))}
           </div>
