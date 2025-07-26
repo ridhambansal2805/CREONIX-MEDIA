@@ -63,7 +63,7 @@ const HeroSection = ({ heroData, stats }) => {
                 key={index} 
                 className="text-center p-6 bg-gradient-to-br from-[#1a4d2e]/20 to-[#0f5132]/10 rounded-lg border border-[#1a4d2e]/30 hover:border-[#2ecc71]/50 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-[0_0_20px_#2ecc71] backdrop-blur-sm"
               >
-                <div className="text-2xl md:text-3xl font-bold text-[#ffd1e7] mb-2 flex items-center justify-center gap-1">
+                <div className="text-2xl md:text-3xl font-bold text-[#2ecc71] mb-2 flex items-center justify-center gap-1 drop-shadow-[0_0_10px_#2ecc71]">
                   {index === 0 && <Target size={20} />}
                   {index === 1 && <TrendingUp size={20} />}
                   {index === 2 && <Zap size={20} />}
