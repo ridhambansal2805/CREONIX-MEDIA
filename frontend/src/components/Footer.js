@@ -17,7 +17,7 @@ const Footer = ({ contactData }) => {
             {/* Brand Column */}
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-bold text-white mb-4 uppercase tracking-wide" style={{ fontFamily: '"Bebas Neue", "Arial Black", "Arial Narrow", condensed, sans-serif' }}>
-                CREON!X
+                CREON!X MEDIA
               </h2>
               <p className="text-[#b3b3b3] text-lg leading-relaxed mb-6 max-w-md">
                 We specialize in building high-converting Shopify stores and scaling them 
