@@ -130,7 +130,7 @@ export const mockData = {
       name: "Sarah Chen",
       position: "Founder",
       company: "Luna Apparel",
-      content: "Creonix transformed our entire business. The new Shopify store not only looks incredible but actually converts. Our Meta ads are finally profitable and scaling consistently.",
+      content: "CREON!X transformed our entire business. The new Shopify store not only looks incredible but actually converts. Our Meta ads are finally profitable and scaling consistently.",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b1c3?w=400&h=400&fit=crop&crop=face",
       results: "127% increase in conversions"
     },
