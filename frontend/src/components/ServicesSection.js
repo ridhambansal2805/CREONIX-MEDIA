@@ -90,10 +90,10 @@ const ServicesSection = ({ services }) => {
               <Button 
                 onClick={scrollToContact}
                 className={`
-                  w-full border-2 rounded-full px-6 py-3 text-sm font-mono uppercase tracking-wider transition-all duration-300 hover:transform hover:scale-105
+                  w-full border-2 rounded-full px-6 py-3 text-sm font-mono uppercase tracking-wider transition-all duration-300 hover:transform hover:scale-105 backdrop-blur-sm
                   ${service.color === 'mid-blue' 
-                    ? 'bg-transparent text-[#88a2ff] border-[#88a2ff] hover:bg-[#88a2ff] hover:text-white' 
-                    : 'bg-transparent text-[#d987ff] border-[#d987ff] hover:bg-[#d987ff] hover:text-white'
+                    ? 'bg-transparent text-[#2ecc71] border-[#2ecc71] hover:bg-gradient-to-r hover:from-[#2ecc71] hover:to-[#27ae60] hover:text-black hover:shadow-[0_0_20px_#2ecc71]' 
+                    : 'bg-transparent text-[#27ae60] border-[#27ae60] hover:bg-gradient-to-r hover:from-[#27ae60] hover:to-[#2ecc71] hover:text-black hover:shadow-[0_0_20px_#27ae60]'
                   }
                 `}
               >
