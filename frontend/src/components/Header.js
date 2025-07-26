@@ -14,7 +14,7 @@ const Header = ({ navigation }) => {
   };
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-[#151515]/95 backdrop-blur-sm border-b border-[#717171]/20">
+    <header className="fixed top-0 w-full z-50 bg-black/95 backdrop-blur-sm border-b border-[#1a4d2e]/40">
       <div className="max-w-[1920px] mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
